@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="https://www.devtown.in/" target="_blank"><img src=".\images\LOGO.svg" alt="LOGO" id="logo"></a>
+        <h1>Course Enrollment</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.devtown.in/" target="_blank">HOME</a></li>
+                <li><a href="https://www.devtown.in/product/full-stack-training-and-internship" target="_blank">MORE COURCES</a></li>
+                <li><a href="https://www.devtown.in/contact-us" target="_blank">CONTACT-US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Registration Form</h2>
+        <form action="">
+            <fieldset>
+                <label for="f_name">Enter your First Name: <input required type="text" name="f_name" id="f_name"></label>
+                <label for="l_name">Enter your Last Name: <input required type="text" name="l_name" id="l_name"></label>
+                <label for="email">Enter your Email id: <input required type="email" name="email" id="email"></label>
+                <label for="number">Enter your Mobile Number: <input required type="number" name="number" id="number"></label>
+            </fieldset>
+            <fieldset>
+                <label for="pay_receipt">Upload payment receipt: <input type="file" name="pay_receipt" id="pay_receipt"></label>
+                <label for="reff">Who reffered You? 
+                    <select name="reff" id="reff">
+                        <option value="1">select any</option>
+                        <option value="2">Self</option>
+                        <option value="3">Any online advertisement</option>
+                        <option value="4">Friend</option>
+                    </select>
+                </label>
+                <label for="des">Any Suggestions:
+                    <textarea name="des" id="des" cols="30" rows="10" placeholder="Am Loving these sessions..!"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" name="Submit" id="submit">
+        </form>
+    </main>
+</body>
+</html>
